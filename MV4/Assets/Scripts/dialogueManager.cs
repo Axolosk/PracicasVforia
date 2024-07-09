@@ -39,7 +39,7 @@ public class dialogueManager : MonoBehaviour
             dialogText.text = randomData;
 
             // Esperar un breve tiempo antes de limpiar el cuadro de diálogo
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(10f);
 
             // Limpiar el cuadro de diálogo
             dialogText.text = "";
